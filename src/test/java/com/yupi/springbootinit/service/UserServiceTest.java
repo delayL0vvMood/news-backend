@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.service;
+package com.fyy.springbootinit.service;
 
 import javax.annotation.Resource;
 import org.junit.jupiter.api.Assertions;
@@ -8,8 +8,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 /**
  * 用户服务测试
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ * @author <a href="https://github.com/lifyy">程序员鱼皮</a>
+ * @from <a href="https://fyy.icu">编程导航知识星球</a>
  */
 @SpringBootTest
 public class UserServiceTest {
@@ -19,7 +19,7 @@ public class UserServiceTest {
 
     @Test
     void userRegister() {
-        String userAccount = "yupi";
+        String userAccount = "fyy";
         String userPassword = "";
         String checkPassword = "123456";
         try {
